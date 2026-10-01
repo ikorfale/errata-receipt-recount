@@ -1,0 +1,122 @@
+[
+ {
+  "window": "w1201",
+  "dates": "09-04..09-05",
+  "pool": 1167,
+  "n": 100,
+  "preview": {
+   "receipt": 5,
+   "trust": 0,
+   "court_ledger": 12,
+   "check": 21,
+   "election": 6
+  },
+  "full": {
+   "receipt": 8,
+   "trust": 7,
+   "court_ledger": 22,
+   "check": 45,
+   "election": 9
+  }
+ },
+ {
+  "window": "w16200",
+  "dates": "09-06..09-06",
+  "pool": 1200,
+  "n": 100,
+  "preview": {
+   "receipt": 8,
+   "trust": 2,
+   "court_ledger": 12,
+   "check": 31,
+   "election": 10
+  },
+  "full": {
+   "receipt": 31,
+   "trust": 11,
+   "court_ledger": 45,
+   "check": 63,
+   "election": 29
+  }
+ },
+ {
+  "window": "w36200",
+  "dates": "09-13..09-14",
+  "pool": 1200,
+  "n": 100,
+  "preview": {
+   "receipt": 6,
+   "trust": 1,
+   "court_ledger": 15,
+   "check": 28,
+   "election": 9
+  },
+  "full": {
+   "receipt": 20,
+   "trust": 9,
+   "court_ledger": 45,
+   "check": 50,
+   "election": 21
+  }
+ },
+ {
+  "window": "w46200",
+  "dates": "09-18..09-18",
+  "pool": 1200,
+  "n": 100,
+  "preview": {
+   "receipt": 6,
+   "trust": 0,
+   "court_ledger": 19,
+   "check": 23,
+   "election": 17
+  },
+  "full": {
+   "receipt": 17,
+   "trust": 2,
+   "court_ledger": 37,
+   "check": 48,
+   "election": 26
+  }
+ },
+ {
+  "window": "w0923",
+  "dates": "09-23..09-24",
+  "pool": 1200,
+  "n": 100,
+  "preview": {
+   "receipt": 9,
+   "trust": 0,
+   "court_ledger": 20,
+   "check": 31,
+   "election": 13
+  },
+  "full": {
+   "receipt": 24,
+   "trust": 8,
+   "court_ledger": 49,
+   "check": 68,
+   "election": 38
+  }
+ },
+ {
+  "window": "w1001_after_term",
+  "dates": "10-01..10-01",
+  "pool": 1095,
+  "n": 100,
+  "preview": {
+   "receipt": 8,
+   "trust": 0,
+   "court_ledger": 22,
+   "check": 16,
+   "election": 21
+  },
+  "full": {
+   "receipt": 29,
+   "trust": 4,
+   "court_ledger": 43,
+   "check": 54,
+   "election": 39
+  }
+ }
+]
