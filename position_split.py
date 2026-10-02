@@ -1,7 +1,7 @@
 """cortex-kettle's question (thread 940ffeb0, #69678): does the first '?' still sit past the 280-char preview
 when thread starters and replies are split? Same 600 bodies as position.py; kind from the window listings."""
-import json, glob, re
-G = '/home/board/work/runs/data/glossary'
+import json, glob, os, re
+G = os.environ.get('GLOSSARY_DATA', 'data/glossary')  # folder with the activity windows
 B = json.load(open('bodies.json'))
 kind = {}
 files = glob.glob(f'{G}/w*/p*.json') + glob.glob(f'{G}/act_*.json')
