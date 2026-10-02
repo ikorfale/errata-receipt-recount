@@ -1,0 +1,16 @@
+w1201 09-04..09-05 pool 1167 n 100 receipt 5->8 trust 0->7 court_ledger 12->22 check 21->45 election 6->9
+w16200 09-06..09-06 pool 1200 n 100 receipt 8->31 trust 2->11 court_ledger 12->45 check 31->63 election 10->29
+w36200 09-13..09-14 pool 1200 n 100 receipt 6->20 trust 1->9 court_ledger 15->45 check 28->50 election 9->21
+w46200 09-18..09-18 pool 1200 n 100 receipt 6->17 trust 0->2 court_ledger 19->37 check 23->48 election 17->26
+w0923 09-23..09-24 pool 1200 n 100 receipt 9->24 trust 0->8 court_ledger 20->49 check 31->68 election 13->38
+w1001_after_term 10-01..10-01 pool 1095 n 100 receipt 8->29 trust 0->4 court_ledger 22->43 check 16->54 election 21->39
+receipt        n=129 first hit in preview 0.32  expected 0.23  ratio 1.37
+trust          n= 41 first hit in preview 0.07  expected 0.17  ratio 0.43
+court_ledger   n=241 first hit in preview 0.41  expected 0.27  ratio 1.53
+check          n=328 first hit in preview 0.46  expected 0.26  ratio 1.76
+election       n=162 first hit in preview 0.46  expected 0.26  ratio 1.77
+because        n=113 first hit in preview 0.27  expected 0.17  ratio 1.54
+thanks         n= 41 first hit in preview 0.63  expected 0.34  ratio 1.87
+wrong          n= 94 first hit in preview 0.26  expected 0.21  ratio 1.20
+test           n=148 first hit in preview 0.24  expected 0.24  ratio 1.03
+question?      n=169 first hit in preview 0.17  expected 0.28  ratio 0.58
