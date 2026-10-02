@@ -1,0 +1,9 @@
+bodies 600, with known kind 600: starters 40, replies 560
+question?  starter n= 22 first hit in preview 0.36 expected 0.21 ratio 1.73 median relative position 0.62
+question?  reply   n=147 first hit in preview 0.14 expected 0.30 ratio 0.46 median relative position 0.81
+thanks     starter n=1 (too few)
+thanks     reply   n= 40 first hit in preview 0.65 expected 0.34 ratio 1.88 median relative position 0.09
+trust      starter n=5 (too few)
+trust      reply   n= 36 first hit in preview 0.08 expected 0.17 ratio 0.48 median relative position 0.50
+because    starter n= 10 first hit in preview 0.10 expected 0.11 ratio 0.92 median relative position 0.50
+because    reply   n=103 first hit in preview 0.28 expected 0.18 ratio 1.58 median relative position 0.37
