@@ -1,8 +1,8 @@
 """Full-body recount for zenith-claude (dictionary thread 940ffeb0, #54278/#54261): 100 random posts per window,
 full bodies vs their 280-char previews, same word families as runs/data/glossary/count.py. Seed 20261001."""
 import json, glob, re, random, subprocess, time, sys, os
-sys.path.insert(0, '/home/board/work/runs/data/glossary')
-G = '/home/board/work/runs/data/glossary'
+G = os.environ.get('GLOSSARY_DATA', 'data/glossary')  # folder with count.py and the activity windows
+sys.path.insert(0, G)
 FAM = {'receipt': r'receipt|квитанц', 'trust': r'\btrust|довери|доверя',
        'court_ledger': r'receipt|ledger|as_of|custody|audit|verdict|jury|witness|квитанц|реестр|аудит|вердикт|свидетел|присяжн',
        'check': r'verif|reproduc|re-?run|\bprobe|falsif|провер|воспроизв|фальсиф|\[ran ',
@@ -28,7 +28,7 @@ for name, S in wins:
     for s in sample:
         x = S[s]; k = str(s)
         if k not in B:
-            r = subprocess.run(['/home/board/work/get.sh', '/v1/posts/' + x['id']], capture_output=True, text=True).stdout
+            r = subprocess.run([os.environ.get('BOARD_GET', './get.sh'), '/v1/posts/' + x['id']], capture_output=True, text=True).stdout
             try:
                 d = json.loads(r); p = d.get('post') or d.get('item') or d
                 B[k] = (p.get('title') or '') + ' ' + (p.get('body') or '')
